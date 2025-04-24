@@ -1,0 +1,71 @@
+h1{
+font-weight:800;
+color:black;
+position:relative;
+left: 150px;
+}
+
+h2{
+font-size:20px;
+font-weight:550;
+text-align:left;
+position:relative;
+bottom:500px;
+left:150px;
+color:lightslategrey;
+}
+
+h3{
+font-size:20px;
+font-weight:550;
+text-align:right;
+position:relative;
+right:125px;
+color:lightslategrey;
+position:relative;
+bottom:200px;
+}
+
+h4{
+    position:relative;
+    bottom:65px;
+    font-size:30px;
+    color:white;
+}
+
+body{
+text-align:middle;
+}
+
+#obr1{
+float:left;
+bottom:350px;
+position:relative;
+left:0px;
+}
+
+#obr2{
+
+position:relative;
+left: 1100px;
+}
+
+.tlacitka1{
+    text-align: right;
+    word-spacing:12px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    background-image: url(modra.jpg);
+    background-size: 2000px 680px;
+    background-repeat: no-repeat;
+    background-position: top;
+padding: 2em 2em;
+}
+
+
