@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-image: url(modra.jpg);
+    background-size: 2000px 680px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.levy-sloupec{
+ width: 600px;
+height: 250px;
+position: relative;
+left:300px;
+top: 200px;
+}
+
+.pravy-sloupec{
+ width: 600px;
+position: relative;
+left: 850px;
+bottom: 80px;
+}
+
+.Odkazy{
+    position: relative;
+    bottom: 252px;
+    left: 1095px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    word-spacing: 12px;
+}
