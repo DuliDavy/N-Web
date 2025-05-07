@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulidavy Shop</title>
+  <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Dulidavy Shop</div>
+
+      <div id="tlacitka1"><a href="Uvod.html">Úvod</a>
+        <a href="InternetovyObchod.html">InternetovýObchod</a>
+        <a href="ONas.html">Onás</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="fotogalerie.html">Fotogalerie</a>
+        <a href="Recenze.html">Recenze</a>
+        <a href="TipyTriky.html">TipyTriky</a>
+    </div>
+        <ul>
+            <li id="cart-button">Košík (<span id="cart-count">0</span>)</li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products" id="product-list"></section>
+  </main>
+
+  <!-- MODÁLNÍ OKNO KOŠÍKU -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" id="close-cart">&times;</span>
+      <h2>Váš košík</h2>
+      <div id="cart-items"></div>
+      <div class="cart-summary">
+        <p>Celkem: <strong id="cart-total">0 Kč</strong></p>
+        <button id="order-button">OBJEDNAT</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
